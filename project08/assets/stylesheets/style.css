@@ -1,0 +1,59 @@
+.main-div {
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+}
+.heading {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+img {
+    margin: 5px;
+}
+.para {
+    line-height: 1.2;
+}
+.float-left {
+    float: left;
+}
+.gap {
+    margin: 30px;
+}
+.float-right {
+    float: right;
+}
+.img-wrapper {
+    background-color: #FABCA3;
+    border: 10px solid #fba42f;
+    outline: 2px solid #F34423;
+    margin: 5px;
+}
+.blue-div {
+    background-color: #ABDCC8;
+    margin: 5px;
+    height: 50px;
+}
+.full-width {
+    width: 100%;
+}
+.fix-width {
+    width: 90px;
+    height: 90px;
+}
+.clear {
+    clear: both;
+}
+/*
+    ==================
+    Contained float, clear-fix
+    ==================
+*/
+.clear-fix:before,
+.clear-fix:after {
+    content: "";
+    display: table;
+}
+.clear-fix:after {
+    clear: both;
+}
